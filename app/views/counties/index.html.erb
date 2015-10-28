@@ -1,0 +1,7 @@
+<<h1>Counties</h1>
+<% @counties.each do |county| %>
+  <h2><%= county.id %></h2>
+  <p>
+    <%= county.name %><br>
+  </p>
+<% end %>
